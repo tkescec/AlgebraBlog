@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['notifications' => true])
 
 @section('content')
 <div class="container">
